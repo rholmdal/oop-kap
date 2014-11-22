@@ -21,7 +21,7 @@ public class Opg1
 		do
 		{
 			tabell[antall] = Integer.parseInt( JOptionPane.showInputDialog(
-				  "Skriv inn radiussen til sirkelen (. hvis desimaltall):" ) );
+				  "Skriv inn et tall" ) );
 			snuddTabell[(tabell.length-1) - antall ] = tabell[ antall ];
 			antall++;
 		} while ( antall < 10 );

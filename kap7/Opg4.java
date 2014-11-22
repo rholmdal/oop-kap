@@ -26,6 +26,7 @@ public class Opg4
 	public static void main(String[] args)
 	{
 		Tallduplikater Test = new Tallduplikater();
+
 		Test.lesInnTall();
 		Test.visInnlesteTall();
 

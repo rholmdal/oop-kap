@@ -1,0 +1,6 @@
+Rune;3
+Erling;4
+Per;5
+Hans;6
+Jens;1
+Knut;2

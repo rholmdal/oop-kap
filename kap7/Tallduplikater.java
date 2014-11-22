@@ -22,6 +22,7 @@ public class Tallduplikater
 		/* Returnere true eller false avhengig av om tall finnes i array */
 
 		boolean finnesFraFør = false;
+
 		for(int i = 0; i < tabell.length; i++)
 		{
 			if ( tall == tabell[i])
@@ -65,10 +66,11 @@ public class Tallduplikater
 
 		int indeks = 0;  // styrevariabel for do-while-løkke
 		int tall;
+		String inn;
 		do
 		{
 			tall = Integer.parseInt( JOptionPane.showInputDialog(
-				"Skriv inn " + (indeks + 1) + ". tall:" ) );
+				"Skriv inn " + (indeks + 1) + ". tall:" ));
 			if ( tall >= minTall && tall <= maksTall && !finnes(tall) )
 			{
 				tabell[indeks] = tall;
